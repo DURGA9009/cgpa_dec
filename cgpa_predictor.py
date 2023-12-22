@@ -3,9 +3,9 @@ import streamlit as st
 GRADE_MAP = {
     'O': 10,
     'A+': 9,
-    'A-': 8,
+    'A': 8,
     'B+': 7,
-    'B-': 6,
+    'B': 6,
     'C': 5,
     'Others': 0
 }
