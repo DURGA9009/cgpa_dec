@@ -42,7 +42,6 @@ def main():
 
     subjects = []
 
-    st.subheader("Default Subjects:")
     for i, (subject, credit, default_grade) in enumerate(default_subjects):
         grade = st.sidebar.selectbox(f"Grade for {subject}", list(GRADE_MAP.keys()), list(GRADE_MAP.keys()).index(default_grade))
         subjects.append((subject, credit, GRADE_MAP[grade]))
